@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>NancyRazorGrid</id>
+    <version>1.0.0.0</version>
+    <title>NancyRazorGrid</title>
+    <authors>Ivan Antipov</authors>
+    <owners>Ivan Antipov</owners>
+    <licenseUrl>https://github.com/IvanAntipov/NancyRazorGrid/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/IvanAntipov/NancyRazorGrid</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Create table with Razor view engine in NancyFx</description>
+    <releaseNotes>Initial concept</releaseNotes>
+    <copyright>Copyright 2016</copyright>    
+  
+    <dependencies>
+      <group>
+        <dependency id="Microsoft.AspNet.Razor" version="2.0.30506.0" />
+        <dependency id="Nancy" version="1.4.3" />
+        <dependency id="Nancy.Viewengines.Razor" version="1.4.3" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="..\NancyRazorGrid\bin\Release\FileTape.*" target="lib\net452" />
+  </files>
+</package>
