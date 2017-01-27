@@ -40,7 +40,7 @@ namespace NancyRazorGrid
             {
                 var rowClassesAttribute = _rowClasses == null
                     ? ""
-                    : string.Format($" class={_rowClasses}");
+                    : string.Format($" class={_rowClasses(item)}");
 
                 sb.AppendLine($"<tr{rowClassesAttribute}>");
 

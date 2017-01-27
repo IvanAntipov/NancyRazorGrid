@@ -2,7 +2,7 @@
 <package >
   <metadata>
     <id>NancyRazorGrid</id>
-    <version>1.0.0.0</version>
+    <version>1.0.0.1</version>
     <title>NancyRazorGrid</title>
     <authors>Ivan Antipov</authors>
     <owners>Ivan Antipov</owners>
@@ -22,6 +22,6 @@
     </dependencies>
   </metadata>
   <files>
-    <file src="..\NancyRazorGrid\bin\Release\FileTape.*" target="lib\net452" />
+    <file src="..\NancyRazorGrid\bin\Release\NancyRazorGrid.*" target="lib\net452" />
   </files>
 </package>
